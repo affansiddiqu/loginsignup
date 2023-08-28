@@ -1,0 +1,45 @@
+@keyframes example {
+    0% {
+        background-color: cyan;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: yellow;
+        left: 68%;
+        top: 0px;
+    }
+
+    50% {
+        background-color: burlywood;
+        left: 550px;
+        top: 600px;
+    }
+
+    75% {
+        background-color: chartreuse;
+        left: 0px;
+        top: 0px;
+    }
+
+    100% {
+        background-color: red;
+        left: 30%;
+        top: 300px;
+    }
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-family: cursive;
+    padding-top: 20px;
+    width: 33%;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
